@@ -1,0 +1,47 @@
+.carousel{
+    margin: auto;
+    height: 40vh;
+    background-color:#F5F4EC ;
+    display: flex;
+    place-content: center;
+}
+.carousel-svg{
+    margin-top: 100px;
+    height: 30vh;
+    width: 90%;
+    position: relative;
+    background-size: cover;
+}
+.caousel-imgs{
+    height: 40vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.img-left img{
+    /* margin: 0 20px; */
+    border-radius: 10px;
+}
+
+.img-center{
+    position: relative;    
+}
+.img-center img{
+    border-radius: 10px;
+    /* margin: 0 20px; */
+}
+.img-center-content{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #ffffff;
+    position: absolute;
+    top: 70%;
+    left: 40px;
+}
+.img-right img{
+    border-radius: 10px;
+    /* margin: 0 20px; */
+}

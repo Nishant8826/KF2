@@ -1,0 +1,104 @@
+.new-collaborator{
+    height: 40vh;
+    background: linear-gradient(0deg, #F4F4F4, #F4F4F4);
+    padding: 120px;
+    color: #4593AB;
+}
+.new-collab-content{
+    position: relative;
+    border: 1px solid #F4F4F4;
+    background-color: #FFFFFF;
+    height: 35vh;
+    border-radius: 10px;
+    gap: 30px;
+    place-content: center;
+}
+.content-1{
+    gap: 110px;
+    margin: 0 auto;
+}
+.client-imgs{
+    max-height: 90px;
+    position: relative;
+}
+.content-2{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    gap: 100px;
+}
+.client-imgs2{
+    max-width: 15rem;
+    max-height: 70px;
+}
+
+.background-div{
+    background: #4593AB;
+    height: 30vh;
+    margin-top: -250px;
+}
+
+.fuelNumbers{
+    border: 1px solid#F4F4F4;
+    background-color: #F4F4F4;
+    height: 450px;
+}
+.fuelNumbers h2{
+    color:#4593AB;
+    text-align: center;
+}
+.fuelContent{
+    height: 30vh;
+    width: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.c-1{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.c-2{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.c-3{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.c-4{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.c-5{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+.c-6{
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    background-color:#FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+}

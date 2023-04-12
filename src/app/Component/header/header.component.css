@@ -1,0 +1,77 @@
+.logo{
+    line-height: 17px;
+}
+
+.logo-head{
+    font-size: 28px;
+    font-weight: 500;
+    color: #4593AB;
+}
+.logo-text{
+    color: #000000;
+    font-weight: 200;
+    font-size: 12px;
+}
+.location{
+    margin-left: -130px;
+    
+}
+.location h4{
+    line-height: 1px;
+    margin: 0px;
+}
+.location-text{
+    color: #2F2F2F;
+}
+.select-L{
+    color: #4593AB;
+}
+
+.search input{
+    width: 330px;
+    position:absolute;
+    height: 34px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 0.5px solid #2F2F2F;
+}
+.search button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 100px;
+    left: 680px;    
+    margin-right: 0;
+    height: 34px;
+    background: #4593AB;
+    border: 0.5px solid #2C6E83;
+}
+.language button{
+    background: rgba(246, 244, 231, 0.6);
+    height: 34px;
+    color:#3E3E3E;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+.language button:hover{
+    cursor: pointer;
+}
+.menu{
+    font-size: 15px;
+    padding: 5px;
+}
+.menu button{
+    place-content: center;
+}
+.discover{
+    margin: 10px;
+    padding: 2px;
+}
+.contact{
+    margin: 10px;
+    padding: 2px;
+}
+.more{
+    font-size: 15px;
+    border: rgba(246, 244, 231, 0.6);
+    background-color: rgba(246, 244, 231, 0.6);
+}

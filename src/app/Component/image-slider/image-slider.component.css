@@ -1,0 +1,74 @@
+h3 {
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: left;
+}
+
+.primary {
+    color: #4593AB;
+}
+
+.roboto-small {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6592px;
+    line-height: 20px;
+}
+
+.veiw-all {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.6592px;
+    line-height: 20px;
+}
+
+.slide-content {
+    height: 420px;
+    width: 340px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.image-content {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding: 14px 22.63px;
+    width: 100%;
+    border: none;
+    background-color: #4593AB;
+    color: white;
+    cursor: pointer;
+}
+
+.start-slide {
+    height: 420px;
+    width: 340px;
+    padding: 20px;
+}
+

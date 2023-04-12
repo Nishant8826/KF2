@@ -1,0 +1,59 @@
+<mat-toolbar >
+    <mat-toolbar-row style="background-color: #F5F4EC;z-index: 999;">            
+        <div class="mainHeader" fxLayout="row" fxLayoutAlign="space-between center" fxFlex="100">
+            <div class="logo" fxflex="5" fxLayout="column" fxLayoutAlign="center start">
+                <span class="logo-head">KEEFFLUENT</span>
+                <span class="logo-text">Discover & Deliver Services</span>
+            </div>
+            <div class="location" fxflex="5" fxLayout="column" fxLayoutAlign="center start">
+                <h4 class="location-text"><span><mat-icon> location_on</mat-icon>&nbsp;Location</span></h4>
+                <h4 class="select-L">Select Location <span><mat-icon>keyboard_arrow_right</mat-icon></span></h4>
+            </div>
+            <div class="search" fxflex="60" fxLayout="row" fxLayoutAlign="center center">
+                <input type="text" placeholder="Type here to search" fxFlex="80">
+                <button type="submit" fxFlex="20">Search</button>
+
+            </div>
+            <div class="language" fxFlex="5"  >
+                <button fxLayout="row" fxLayoutAlign="start center">
+                    <img src="../../../assets/Group 48.png">
+                    <h3 style="margin: 0;padding: 2px;">English</h3>
+                     <mat-icon>arrow_drop_down</mat-icon></button>
+            </div>
+            <div class="menu" fxflex="25" fxLayout="row" fxLayoutAlign="space-between center">
+                <button mat-button class="discover">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 20" fill="none">
+                    <path d="M21.8019 14.7093L21.8335 14.6039C22.6486 12.2708 22.6486 9.73029 21.8335 7.39718L21.8019 7.29182C21.033 5.17194 19.631 3.33961 17.786 2.04301C15.941 0.746418 13.7421 0.0482144 11.4871 0.0429688C9.23131 0.045187 7.03099 0.742202 5.1854 2.0392C3.33981 3.33621 1.93854 5.17024 1.17219 7.29182L1.14059 7.39718C0.325534 9.73029 0.325534 12.2708 1.14059 14.6039L1.17219 14.7093C1.93854 16.8308 3.33981 18.6649 5.1854 19.9619C7.03099 21.2589 9.23131 21.9559 11.4871 21.9581C13.7428 21.9559 15.9431 21.2589 17.7887 19.9619C19.6343 18.6649 21.0356 16.8308 21.8019 14.7093ZM8.80035 15.215H14.1738C13.6339 16.891 12.7144 18.4198 11.4871 19.6823C10.2597 18.4198 9.34026 16.891 8.80035 15.215ZM8.35783 13.5292C8.03481 11.8589 8.03481 10.1422 8.35783 8.47187H14.6163C14.7767 9.30522 14.8578 10.1519 14.8586 11.0005C14.8583 11.8492 14.7772 12.6959 14.6163 13.5292H8.35783ZM2.21527 11.0005C2.21706 10.1459 2.33401 9.29531 2.56296 8.47187H6.64044C6.35948 10.1459 6.35948 11.8551 6.64044 13.5292H2.56296C2.33401 12.7058 2.21706 11.8552 2.21527 11.0005ZM14.1738 6.78609H8.80035C9.34026 5.11009 10.2597 3.58132 11.4871 2.31877C12.7144 3.58132 13.6339 5.11009 14.1738 6.78609ZM16.3337 8.47187H20.4112C20.8749 10.1258 20.8749 11.8753 20.4112 13.5292H16.3337C16.6146 11.8551 16.6146 10.1459 16.3337 8.47187ZM19.7474 6.78609H15.9544C15.4474 5.01108 14.5834 3.35827 13.4152 1.92894C14.764 2.22018 16.0316 2.80686 17.1265 3.64673C18.2214 4.4866 19.1165 5.55878 19.7474 6.78609ZM9.55895 1.92894C8.39076 3.35827 7.52671 5.01108 7.01974 6.78609H3.22674C3.85759 5.55878 4.7527 4.4866 5.84763 3.64673C6.94257 2.80686 8.21008 2.22018 9.55895 1.92894ZM3.22674 15.215H7.01974C7.52671 16.99 8.39076 18.6428 9.55895 20.0721C8.20925 19.783 6.94081 19.1971 5.84558 18.357C4.75036 17.5169 3.85579 16.4436 3.22674 15.215ZM13.4152 20.0721C14.5834 18.6428 15.4474 16.99 15.9544 15.215H19.7474C19.1183 16.4436 18.2238 17.5169 17.1285 18.357C16.0333 19.1971 14.7649 19.783 13.4152 20.0721Z" fill="#3E3E3E"/>
+                    </svg> <span>&nbsp;Discover</span> </button>
+                    
+                <button mat-button class="contact"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                    <path d="M15 17C15 16.4696 14.7893 15.9609 14.4142 15.5858C14.0391 15.2107 13.5304 15 13 15H7C6.46957 15 5.96086 15.2107 5.58579 15.5858C5.21071 15.9609 5 16.4696 5 17" stroke="#3E3E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z" stroke="#3E3E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 11C11.1046 11 12 10.1046 12 9C12 7.89543 11.1046 7 10 7C8.89543 7 8 7.89543 8 9C8 10.1046 8.89543 11 10 11Z" stroke="#3E3E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 1V3M14 1V3" stroke="#3E3E3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>&nbsp;Contact</button>
+
+                <button  mat-button [matMenuTriggerFor]="beforeMenu"  class="more" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="16" viewBox="0 0 4 16" fill="none">
+                        <path d="M2 16C1.45 16 0.979334 15.8043 0.588 15.413C0.196 15.021 0 14.55 0 14C0 13.45 0.196 12.979 0.588 12.587C0.979334 12.1957 1.45 12 2 12C2.55 12 3.021 12.1957 3.413 12.587C3.80433 12.979 4 13.45 4 14C4 14.55 3.80433 15.021 3.413 15.413C3.021 15.8043 2.55 16 2 16ZM2 10C1.45 10 0.979334 9.804 0.588 9.412C0.196 9.02067 0 8.55 0 8C0 7.45 0.196 6.979 0.588 6.587C0.979334 6.19567 1.45 6 2 6C2.55 6 3.021 6.19567 3.413 6.587C3.80433 6.979 4 7.45 4 8C4 8.55 3.80433 9.02067 3.413 9.412C3.021 9.804 2.55 10 2 10ZM2 4C1.45 4 0.979334 3.804 0.588 3.412C0.196 3.02067 0 2.55 0 2C0 1.45 0.196 0.979333 0.588 0.588C0.979334 0.196 1.45 0 2 0C2.55 0 3.021 0.196 3.413 0.588C3.80433 0.979333 4 1.45 4 2C4 2.55 3.80433 3.02067 3.413 3.412C3.021 3.804 2.55 4 2 4Z" fill="#3E3E3E"/>
+                        </svg>
+                      &nbsp;More&nbsp;
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="5" viewBox="0 0 12 5" fill="none">
+                        <path d="M6 5L0.803848 0.5L11.1962 0.499999L6 5Z" fill="#3E3E3E"/>
+                        </svg>
+                   </button>
+                   <mat-menu #beforeMenu="matMenu" xPosition="before">
+                    <button mat-menu-item>My Network</button>
+                    <button mat-menu-item>Service Requests</button>
+                    <button mat-menu-item>All Events</button>
+                    <button mat-menu-item>Event Requests</button>
+                    <button mat-menu-item>My Profile</button>
+                    <button mat-menu-item>Notifications</button>
+                    <button mat-menu-item>About Keepfluent</button>
+                    <button mat-menu-item>Login</button>
+                    <button mat-menu-item>Create Account</button>
+                  </mat-menu>
+            </div>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>

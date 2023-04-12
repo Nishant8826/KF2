@@ -1,0 +1,28 @@
+.first {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    gap: 10px;
+}
+
+.gallery_comp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.first>img {
+    height: 150px;
+    width: 150px;
+}
+
+.grid_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #4593AB;
+}
